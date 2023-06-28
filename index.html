@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Página de perritos uwu</title>
+        <meta charset="UTF-8">
+        <link href="estilos.css" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@600&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Página de perritos</h1>
+        
+        <h3>Imágenes de perritos</h3>
+
+        <!--Imagen desde internet-->
+        <img src="https://1.bp.blogspot.com/-jK35lzezc9s/Xyt_E24Rn7I/AAAAAAAAfLQ/JIfXFRPsv2cwcG9_Y-PJB_CT-wZFfkJRACLcBGAsYHQ/s1600/Conoce%2Ba%2BBaby%252C%2Bel%2BCorgi%2Bm%25C3%25A1s%2Besponjosito%2By%2Blindo%2Bdel%2Bmundo%2B1.jpg" width="300px">
+
+        <!--Imagen desde archivos-->
+        <img src="imagenes/Corgi1.jpg" width="300px">
+        
+        <!--Crear enlaces externos-->
+        <p>Si quieres ver más imágenes de perritos, <a href="https://www.istockphoto.com/es/fotos/corgi-gal%C3%A9s-pembroke" target="_blank">da click en este enlace</a></p>
+
+        <h3>Listas de perritos</h3>
+
+        <p>3 cosas que los perritos <strong>aman</strong></p>
+
+            <!--Lista ordenada-->
+            <ol> <!--Ordered List-->
+                <li>Comida</li> <!--List Item-->
+                <li>Juguetes</li>
+                <li>Dormir</li>
+            </ol>
+
+        <p>3 cosas que los perritos <i>odian</i></p>
+
+            <!--Lista desordenada-->
+            <ul> <!--Unordered List-->
+                <li>Ruidos fuertes</li>
+                <li>No salir a pasear</li>
+                <li>Quedarse solo en casa</li>
+            </ul>
+
+     <!--Formularios-->
+    <form>
+        <!--Form con botones de radio-->
+        <p>¿Tu perrito es cachorro o adulto?</p>
+            <label>
+                <input id="cachorro" 
+                type="radio"
+                value="cachorro"
+                name="cachorro-adulto"
+                checked>Cachorro
+            </label>
+            <label>
+                <input id="adulto"
+                type="radio"
+                value="adulto"
+                name="cachorro-adulto">Adulto
+            </label>
+
+        <!--Form con casillas de verificación-->
+        <p>¿Qué tipo de personalidad tiene tu perro?</p>
+            <label>
+                <input id="enojón"
+                type="checkbox"
+                value="enojón"
+                name="personalidad"
+                checked> Enojón
+            </label>
+            <label>
+                <input id="juguetón"
+                type="checkbox"
+                value="juguetón"
+                name="personalidad"> Juguetón
+            </label>
+            <label>
+                <input id="perezoso"
+                type="checkbox"
+                value="perezoso"
+                name="personalidad"> Perezoso
+            </label>
+    </form>
+    </body>
+    <footer>
+        <p><small><a href="https://tecnolochicas.mx/" target="_blank">Esta página fue creada durante el Bootcamp de Tecnolochicas PRO</a></small></p>
+
+    </footer>
+</html>

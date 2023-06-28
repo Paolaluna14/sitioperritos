@@ -1,0 +1,20 @@
+body{
+    background-color: #f6e5cb;
+    color:rgb(43, 37, 37);
+    font-family: Lato;
+}
+
+h1{
+    color: #d76483;
+    font-family: 'Belanosima', bold;
+}
+
+h3{
+    color: #9b2d4a;
+    font-family: 'Lato', Regular;
+}
+
+footer p a{
+    color: rgb(173, 59, 103);
+    text-decoration: none;
+}
